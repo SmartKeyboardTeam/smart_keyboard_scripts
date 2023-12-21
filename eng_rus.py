@@ -7,10 +7,10 @@ import pyautogui as pg
 # pg.PAUSE = 2
 pg.hotkey('Win')
 pg.PAUSE = 0.5
-pg.typewrite('Google\n', 0.1)
-pg.typewrite('https://gsgen.ru/tools/perevod-raskladki-online/\n')
-pg.moveTo(800,500)
+pg.typewrite('https://gsgen.ru/tools/perevod-raskladki-online/\n', 0.01)
+pg.moveTo(800, 600)
 pg.click()
+pg.PAUSE = 0.5
 pg.hotkey('ctrl', 'v')
-pg.moveTo(900,650)
+pg.moveTo(900, 650)
 pg.click()
